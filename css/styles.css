@@ -1,0 +1,296 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+body {
+    width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+ul,
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+}
+
+input,
+textarea,
+button,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button,
+input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+legend {
+    display: block;
+}
+
+.container {
+    width: 100%;
+    font-family: Poppins;
+    overflow: visible
+}
+
+.first-block-wrap {
+    background-color: #165166;
+    padding: 0px 150px;
+    overflow: visible
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation-el {
+    padding: 0 20px;
+    color: white;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 36px;
+
+}
+
+.header-btn {
+    margin: 0 20px;
+    cursor: pointer;
+    width: 28px;
+    height: 28px;
+}
+
+.header-btn-el {
+    width: auto;
+    height: 100%;
+}
+
+.first-links {}
+
+.first-link-1,
+.first-link-2 {
+    color: white;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.first-h {
+    font-family: Poppins;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 90px;
+    color: white;
+}
+
+.first-p {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 63px;
+}
+
+.first-h-span {
+    color: #05FF00;
+}
+
+.first-block {
+    display: flex;
+    position: relative;
+}
+
+.first-description {
+    max-width: 709px;
+    padding-top: 200px;
+}
+
+.first-img {
+    position: absolute;
+    top: 0;
+    right: -218px;
+}
+
+.first-img-el1 {}
+
+.first-img-el2 {
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+}
+
+.first-img-el3 {
+    position: absolute;
+    bottom: -4px;
+    right: 3px;
+}
+
+.first-link-1 {
+    background-color: #54C352;
+    width: 206px;
+    height: 80px;
+    border-radius: 5px;
+    padding: 23.5px 48.5px;
+}
+
+.first-link-2 {
+    display: inline-block;
+    padding-left: 83px;
+    position: relative;
+}
+
+.first-link-2::after {
+    content: "\2192";
+    font-size: 30px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.first-statistics {
+    padding-top: 167px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.first-stat-el-1 {
+    color: #05FF00;
+    font-family: Poppins;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-bottom: 17px;
+    margin-right: 100px;
+}
+
+.first-stat-el-2 {
+    color: #EFEFEF;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.first-find {
+    display: flex;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.first-find-arrow {
+    padding-left: 38px;
+}
+
+.first-find-links{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 107px;
+}
+
+.first-find-a{
+    font-family: Poppins;
+font-size: 50px;
+font-weight: 600;
+color: #78A677;
+}
